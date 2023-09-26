@@ -1,0 +1,122 @@
+body{
+	font-family:sans-serif;
+	text-align:center;
+}
+
+h1{
+	text-align:center;
+	font-size:70px;
+}
+
+#adSearch h2{
+	text-align:left;
+	padding-left:40px;
+	font-weight:normal;
+	color:#DB4437;
+	font-size:15px;
+}
+
+#adSearch h3{
+	text-align:left;
+	padding-left:20px;
+	padding-left:40px;
+	font-weight:normal;
+	font-size:15px;
+}
+
+
+hr{
+	border-style:solid;
+	border-color:#eeeeee;
+	border-width:.5px;
+	width:100%;
+}
+
+span{
+	margin:0;
+}
+
+#search{
+	padding-top:20px;
+	
+}
+
+.links{
+	position:absolute;
+	top:0;
+	margin-top:0;
+	right:0;
+	padding:10px;
+	
+}
+
+#adSearch label{
+	display:inline-block;
+	float:left;
+	padding-left:40px;
+	font-size:15px;
+}
+
+#adSearch input[type="text"]{
+	display:block;
+	padding-right:250px;
+	padding-top:10px;
+
+	margin-left:60%;
+	margin-top:0;
+	vertical-align:middle;
+	border-style:solid;
+	border-width:1px;
+	border-color:#bcbcbc;
+}
+
+#adSearch p{
+	color:#5A5A5A; 
+	text-align:left;
+	padding-left:40px;
+	font-size:15px;
+}
+
+input[type="text"][id="search"]{
+	display:block;
+	border-style:solid;
+	border-color:#bcbcbc;
+	border-width:1px;
+	border-radius:50px;
+	width:70%;
+	margin:0 auto;
+	padding:10px;
+	font-size:20px;
+}
+
+input[type="submit"]{
+	margin:0 auto;
+	display:inline-block;
+}
+
+input[value="Advanced Search"]{
+	float:right; 
+	margin-right:50%;
+	background-color:#4285F4;
+	color:white;
+	border-style:none;
+	padding:10px;
+	border-radius:1px;
+	font-weight:bold;
+	font-size:10px;
+}
+
+button, #search input[type="submit"]{
+	border-style:none;
+	padding:5px;
+	color:#5A5A5A;
+	background-color:#eeeeee;
+	
+}
+
+
+a:link, a:visited{
+	text-decoration:none;
+	color:#5A5A5A;
+}
+
